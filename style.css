@@ -9,6 +9,16 @@ h1 {
   font-family: verdana;
 }
 
+label {
+  width: 100px;
+  display: inline-block;
+}
+
+input[type="range"] {
+  width: 120px;
+  display: inline-block;
+}
+
 .maindiv {
   background-color: white;
   color: black;
