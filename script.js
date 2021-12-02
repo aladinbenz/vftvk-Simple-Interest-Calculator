@@ -19,14 +19,14 @@ function compute() {
   } else {
     // update result
     var result = (document.getElementById("result").innerHTML =
-      "If you deposit <b>" +
+      "If you deposit <mark>" +
       principal +
-      "</b>, </br> at an interest rate of <b>" +
+      "</mark>, </br> at an interest rate of <mark>" +
       rate +
-      "</b></br>You will receive an amount of <b>" +
+      "%</mark></br>You will receive an amount of <mark>" +
       interest +
-      "</b>,</br>in the year <b>" +
+      "</mark>,</br>in the year <mark>" +
       year +
-      "</b></p>");
+      "</mark></p>");
   }
 }
